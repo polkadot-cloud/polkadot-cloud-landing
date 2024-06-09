@@ -2,7 +2,7 @@
 SPDX-License-Identifier: GPL-3.0-only */
 
 .theme-light {
-  --background-default: #fafafa;
+  --background-default: #f7f7f7;
   --background-primary: #f3f2f2;
   --background-invert: #888;
   --background-tooltip: #222;

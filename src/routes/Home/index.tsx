@@ -21,7 +21,7 @@ export const Home = () => (
       </div>
 
       <div style={{ marginBottom: '2.5rem' }}>
-        <CardWrapper>
+        <CardWrapper style={{ background: 'none' }}>
           <h3 style={{ marginBottom: 0, opacity: 0.5 }}>
             A New Polkadot Developer Experience
           </h3>

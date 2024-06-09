@@ -23,6 +23,7 @@ export const PageContentWrapper = styled.div`
 
 export const CardWrapper = styled.div`
   border: 1px solid var(--border-secondary-color);
+  background-color: var(--background-default);
   box-shadow: var(--shadow-floating-menu);
   border-radius: 0.6rem;
   flex: 1;
@@ -56,6 +57,7 @@ export const CardWrapper = styled.div`
   }
 
   &.transparent {
+    background: none;
     border: none;
     box-shadow: none;
     padding: 0.5rem 0.5rem;
