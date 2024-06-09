@@ -27,7 +27,7 @@ export const CardWrapper = styled.div`
   border-radius: 0.6rem;
   flex: 1;
   padding: 0.85rem 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.1rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
