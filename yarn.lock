@@ -501,14 +501,14 @@ __metadata:
 
 "@fortawesome/fontawesome-common-types@npm:6.5.2":
   version: 6.5.2
-  resolution: "@fortawesome/fontawesome-common-types@npm:6.5.2"
+  resolution: "@fortawesome/fontawesome-common-types@npm:6.5.2::__archiveUrl=https%3A%2F%2Fnpm.fontawesome.com%2F%40fortawesome%2Ffontawesome-common-types%2F-%2F6.5.2%2Ffontawesome-common-types-6.5.2.tgz"
   checksum: 10c0/12104e93a0056ad1077f7350826f52aa26465bb1d6b4ce75dab0307072a3871301ec750c3a34d89d05e7338c9b446fa2793150cf58a5167217021943ef877d77
   languageName: node
   linkType: hard
 
 "@fortawesome/fontawesome-svg-core@npm:^6.5.2":
   version: 6.5.2
-  resolution: "@fortawesome/fontawesome-svg-core@npm:6.5.2"
+  resolution: "@fortawesome/fontawesome-svg-core@npm:6.5.2::__archiveUrl=https%3A%2F%2Fnpm.fontawesome.com%2F%40fortawesome%2Ffontawesome-svg-core%2F-%2F6.5.2%2Ffontawesome-svg-core-6.5.2.tgz"
   dependencies:
     "@fortawesome/fontawesome-common-types": "npm:6.5.2"
   checksum: 10c0/91695dd375623988d16e6f0dc69d20350ef3fa3296fe40aa08877aae7beaf64378134656a2227419fe648dcd27a81c03fe1fd9a6c87956d863164b0380ba77d0
@@ -517,7 +517,7 @@ __metadata:
 
 "@fortawesome/free-brands-svg-icons@npm:^6.5.2":
   version: 6.5.2
-  resolution: "@fortawesome/free-brands-svg-icons@npm:6.5.2"
+  resolution: "@fortawesome/free-brands-svg-icons@npm:6.5.2::__archiveUrl=https%3A%2F%2Fnpm.fontawesome.com%2F%40fortawesome%2Ffree-brands-svg-icons%2F-%2F6.5.2%2Ffree-brands-svg-icons-6.5.2.tgz"
   dependencies:
     "@fortawesome/fontawesome-common-types": "npm:6.5.2"
   checksum: 10c0/4c1798930547a73bf9dfd04064288d4ce02fbf42fece056c1f5dd6596363d6a34bb86bc2e0f400b78f938f48773aceb375bc6977e55cbaec9b7bd07996ae1e8c
@@ -526,7 +526,7 @@ __metadata:
 
 "@fortawesome/free-regular-svg-icons@npm:^6.5.2":
   version: 6.5.2
-  resolution: "@fortawesome/free-regular-svg-icons@npm:6.5.2"
+  resolution: "@fortawesome/free-regular-svg-icons@npm:6.5.2::__archiveUrl=https%3A%2F%2Fnpm.fontawesome.com%2F%40fortawesome%2Ffree-regular-svg-icons%2F-%2F6.5.2%2Ffree-regular-svg-icons-6.5.2.tgz"
   dependencies:
     "@fortawesome/fontawesome-common-types": "npm:6.5.2"
   checksum: 10c0/dff7e3cc4a5433b020b0cf9e5ba95cedec7f64cda38b1183bbac5cead9d0a54b6d70671fbf799a8b5e3befb7f8955a546cf013d62b941fd03cd4516ef18613e7
@@ -535,7 +535,7 @@ __metadata:
 
 "@fortawesome/free-solid-svg-icons@npm:^6.5.2":
   version: 6.5.2
-  resolution: "@fortawesome/free-solid-svg-icons@npm:6.5.2"
+  resolution: "@fortawesome/free-solid-svg-icons@npm:6.5.2::__archiveUrl=https%3A%2F%2Fnpm.fontawesome.com%2F%40fortawesome%2Ffree-solid-svg-icons%2F-%2F6.5.2%2Ffree-solid-svg-icons-6.5.2.tgz"
   dependencies:
     "@fortawesome/fontawesome-common-types": "npm:6.5.2"
   checksum: 10c0/af2778b91ba4bf7b61ae0cdf0d39d75b6906a82bfdf8e977881d987b86a32ce157297853b7892aa3b609076b5542ea1e1e78b520d57b6f50677a2a748cf3434c
@@ -562,7 +562,7 @@ __metadata:
 
 "@fortawesome/react-fontawesome@npm:^0.2.0":
   version: 0.2.2
-  resolution: "@fortawesome/react-fontawesome@npm:0.2.2"
+  resolution: "@fortawesome/react-fontawesome@npm:0.2.2::__archiveUrl=https%3A%2F%2Fnpm.fontawesome.com%2F%40fortawesome%2Freact-fontawesome%2F-%2F0.2.2%2Freact-fontawesome-0.2.2.tgz"
   dependencies:
     prop-types: "npm:^15.8.1"
   peerDependencies:
@@ -4172,7 +4172,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "polkadot-cloud-landing@workspace:."
   dependencies:
-    "@types/gh-pages": "npm:^6"
     "@fortawesome/fontawesome-svg-core": "npm:^6.5.2"
     "@fortawesome/free-brands-svg-icons": "npm:^6.5.2"
     "@fortawesome/free-regular-svg-icons": "npm:^6.5.2"
@@ -4180,6 +4179,7 @@ __metadata:
     "@fortawesome/pro-duotone-svg-icons": "npm:^6.5.2"
     "@fortawesome/pro-solid-svg-icons": "npm:^6.5.2"
     "@fortawesome/react-fontawesome": "npm:^0.2.0"
+    "@types/gh-pages": "npm:^6"
     "@types/react": "npm:^18.3.3"
     "@types/react-dom": "npm:^18.3.0"
     "@types/styled-components": "npm:^5.1.34"

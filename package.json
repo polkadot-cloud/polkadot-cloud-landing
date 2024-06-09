@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-"lint": "eslint . --fix && npx prettier --write .",
-"preview": "vite preview",
+    "lint": "eslint . --fix && npx prettier --write .",
+    "preview": "vite preview",
     "build:pages": "tsc && vite build --base '/'",
     "deploy:pages": "yarn build:pages && gh-pages -d build"
   },
