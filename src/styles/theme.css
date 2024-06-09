@@ -2,7 +2,7 @@
 SPDX-License-Identifier: GPL-3.0-only */
 
 .theme-light {
-  --background-default: #efeeee;
+  --background-default: #fafafa;
   --background-primary: #f3f2f2;
   --background-invert: #888;
   --background-tooltip: #222;
@@ -15,9 +15,9 @@ SPDX-License-Identifier: GPL-3.0-only */
   --border-secondary-color: #d3d1d1;
   --border-tertiary-color: #dddcdc;
 
-  --border-gradient: linear-gradient(45deg, #e6e6e6, #c3c3c3);
+  --border-gradient: linear-gradient(45deg, #e3e3e3, #c3c3c3);
 
-  --button-primary-background: #efeeee;
+  --button-primary-background: #fafafa;
   --button-secondary-background: #e7e5e5;
   --button-tertiary-background: #e7e7e7;
   --button-tab-background: #e4e2e2;
@@ -41,10 +41,10 @@ SPDX-License-Identifier: GPL-3.0-only */
 
   --gradient-background: linear-gradient(
     180deg,
-    #efeeee 0%,
-    #efeeee 100px,
-    #e6e6e6 80%,
-    #f2eafb 100%
+    #fafafa 0%,
+    #fafafa 100px,
+    #ececec 80%,
+    #fbede8 100%
   );
   --gradient-tab-fade: linear-gradient(
     90deg,

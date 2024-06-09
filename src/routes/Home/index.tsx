@@ -9,9 +9,10 @@ export const Home = () => (
   <PageContentWrapper className="thin">
     <HomeWrapper>
       <div>
-        <a href="https://polkadot.cloud" target="_blank" rel="noreferrer">
+        <a href="https://polkadot.cloud">
           <IconSVG className="logo" />
         </a>
+        <h1>Polkadot Cloud</h1>
       </div>
     </HomeWrapper>
   </PageContentWrapper>
