@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { DocsUrl, GithubRepoUrl } from 'consts';
 import IconSvg from 'svg/cloud.svg?react';
 import { HeaderWrapper } from './Wrapper';
+import { version } from '../../../package.json';
 
 export const Header = () => (
   <HeaderWrapper>
@@ -17,6 +18,7 @@ export const Header = () => (
         <IconSvg />
       </span>
       <h1>Polkadot Cloud</h1>
+      <span>{version}</span>
     </div>
     <div>
       <button onClick={() => window.open(DocsUrl)}>
