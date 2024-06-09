@@ -25,7 +25,7 @@ export const CardWrapper = styled.div`
   border: 1px solid var(--border-secondary-color);
   background-color: var(--background-default);
   box-shadow: var(--shadow-floating-menu);
-  border-radius: 0.6rem;
+  border-radius: 0.75rem;
   flex: 1;
   padding: 0.75rem 1rem;
   margin-bottom: 1rem;
@@ -35,9 +35,15 @@ export const CardWrapper = styled.div`
 
   h3 {
     color: var(--text-color-primary);
-    font-family: InterBold, sans-serif;
+    font-family: InterExtraBold, sans-serif;
     margin-top: 0.25rem;
     margin-bottom: 0.8rem;
+
+    &.disabled {
+      font-family: Inter, sans-serif;
+      margin-bottom: 0;
+      opacity: 0.5;
+    }
   }
 
   h4 {
