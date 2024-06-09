@@ -24,7 +24,7 @@ export const HomeWrapper = styled.div`
 
     h2 {
       color: var(--text-color-secondary);
-      margin-top: 0.45rem;
+      margin-top: 0.55rem;
     }
   }
 `;
