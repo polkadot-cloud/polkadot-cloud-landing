@@ -26,8 +26,8 @@ export const CardWrapper = styled.div`
   box-shadow: var(--shadow-floating-menu);
   border-radius: 0.6rem;
   flex: 1;
-  padding: 0.85rem 1rem;
-  margin-bottom: 1.1rem;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -35,14 +35,14 @@ export const CardWrapper = styled.div`
   h3 {
     color: var(--text-color-primary);
     font-family: InterBold, sans-serif;
-    margin-top: 0.3rem;
+    margin-top: 0.25rem;
     margin-bottom: 0.8rem;
   }
 
   h4 {
     color: var(--text-color-tertiary);
     font-family: InterSemiBold, sans-serif;
-    margin: 0.4rem 0 0 0;
+    margin: 0.35rem 0 0.2rem 0;
 
     svg {
       margin-left: 0.35rem;

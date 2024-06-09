@@ -5,7 +5,7 @@ import { CardWrapper, PageContentWrapper } from 'Wrappers';
 import IconSVG from 'svg/cloud.svg?react';
 import { HeadingWrapper, HomeWrapper } from './Wrapper';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode, faExternalLinkAlt } from '@fortawesome/pro-solid-svg-icons';
+import { faExternalLinkAlt } from '@fortawesome/pro-solid-svg-icons';
 
 export const Home = () => (
   <PageContentWrapper className="thin">
@@ -16,18 +16,18 @@ export const Home = () => (
         </a>
         <h1>Polkadot Cloud</h1>
         <h2>
-          Decentralised services for interacting with the Polkadot blockchain.
+          Decentralised services for interacting with the Polkadot blockchain
         </h2>
       </div>
 
       <div style={{ marginBottom: '2.5rem' }}>
-        <CardWrapper style={{ opacity: 0.75 }}>
-          <h3 style={{ marginBottom: 0, opacity: 0.75 }}>
+        <CardWrapper>
+          <h3 style={{ marginBottom: 0, opacity: 0.5 }}>
             A New Polkadot Developer Experience
           </h3>
-          <h4>
+          <h4 style={{ opacity: 0.5 }}>
             Coming Soon
-            <FontAwesomeIcon icon={faCode} transform="shrink-3" />
+            <FontAwesomeIcon icon={faExternalLinkAlt} transform="shrink-3" />
           </h4>
         </CardWrapper>
 
@@ -57,10 +57,7 @@ export const Home = () => (
         <CardWrapper className="transparent">
           <h3>Polkadot Cloud Docs</h3>
           <p>Documentation for using and contributing to Polkadot Cloud.</p>
-          <h4>
-            Coming Soon
-            <FontAwesomeIcon icon={faCode} />
-          </h4>
+          <h4>Coming Soon</h4>
         </CardWrapper>
       </span>
 

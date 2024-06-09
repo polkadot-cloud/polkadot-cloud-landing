@@ -8,7 +8,7 @@ export const HomeWrapper = styled.div`
   text-align: center;
 
   .head {
-    margin-bottom: 1.9rem;
+    margin-bottom: 1.25rem;
 
     .logo {
       height: 7rem;
@@ -24,7 +24,7 @@ export const HomeWrapper = styled.div`
 
     h2 {
       color: var(--text-color-secondary);
-      margin-top: 0.6rem;
+      margin-top: 0.45rem;
     }
   }
 `;
