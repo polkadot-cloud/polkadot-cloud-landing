@@ -1,0 +1,10 @@
+/* @license Copyright 2024 @polkadot-cloud/library authors & contributors
+SPDX-License-Identifier: GPL-3.0-only */
+
+.accent-cloud {
+  --accent-color-primary-light: rgb(211 48 121);
+  --accent-color-primary-dark: rgb(211 48 121);
+
+  --accent-color-secondary-light: #e56cae;
+  --accent-color-secondary-dark: #e56cae;
+}

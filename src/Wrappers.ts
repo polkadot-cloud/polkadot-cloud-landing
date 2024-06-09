@@ -10,8 +10,8 @@ export const AppWrapper = styled.div`
   text-align: center;
 
   .logo {
-    height: 6em;
-    padding: 1.5em;
+    height: 9.5rem;
+    padding: 1.5rem;
     will-change: filter;
     transition: filter 300ms;
 
