@@ -1,13 +1,13 @@
 // Copyright 2024 @polkadot-cloud/polkadot-cloud-landing authors & contributors
 // SPDX-License-Identifier: GPL-3.0-only
 
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
-import './styles/index.scss'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+import './styles/index.scss';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
-)
+  </React.StrictMode>
+);
