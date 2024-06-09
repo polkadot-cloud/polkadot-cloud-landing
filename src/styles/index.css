@@ -16,6 +16,11 @@ html {
   box-sizing: border-box;
 }
 
+/* Remove outline for non-keyboard :focus */
+*:focus:not(.focus-visible) {
+  outline: none;
+}
+
 /* Define default body style and cancel out spacing. */
 
 body {
@@ -74,8 +79,9 @@ h5 {
 
 p {
   font-size: .85rem;
-  line-height: .95rem;
+  line-height: 1.05rem;
   margin: 0.5rem 0;
+  text-align: left;
 }
 
 /* Define default anchor style. */
