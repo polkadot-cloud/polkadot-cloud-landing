@@ -3,7 +3,7 @@
 
 export const DappName = 'Polkadot Cloud';
 
-export const DocsUrl = 'https://polkadot.cloud/';
+export const DocsUrl = 'https://docs.polkadot.cloud/';
 
 export const GithubRepoUrl =
   'https://github.com/polkadot-cloud/polkadot-cloud-landing';

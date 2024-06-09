@@ -4,7 +4,7 @@
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faBooks } from '@fortawesome/pro-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { DocsUrl, GithubRepoUrl } from 'consts';
+import { GithubRepoUrl } from 'consts';
 import IconSvg from 'svg/cloud.svg?react';
 import { HeaderWrapper } from './Wrapper';
 import { version } from '../../../package.json';
@@ -21,7 +21,11 @@ export const Header = () => (
       <span>{version}</span>
     </div>
     <div>
-      <button onClick={() => window.open(DocsUrl)}>
+      <button
+        onClick={() => {
+          /* Do nothing. */
+        }}
+      >
         <FontAwesomeIcon icon={faBooks} transform="grow-2" />
       </button>
 

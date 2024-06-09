@@ -63,8 +63,8 @@ SPDX-License-Identifier: GPL-3.0-only */
 
   --shadow-dropdown: 0 1px 4px -2px rgba(0, 0, 0, 0.1);
 
-  --shadow-floating-menu: 0 4px 6px -1px rgba(0, 0, 0, 0.07),
-    0 2px 4px -2px rgba(0, 0, 0, 0.07);
+  --shadow-floating-menu: 0 4px 6px -1px rgba(0, 0, 0, 0.05),
+    0 2px 4px -2px rgba(0, 0, 0, 0.05);
 
   --shadow-notification: 0 2px 3px -1px rgba(0, 0, 0, 0.05),
     0 1px 4px -2px rgba(0, 0, 0, 0.05);
