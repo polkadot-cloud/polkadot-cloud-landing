@@ -4,7 +4,7 @@
 import styled from 'styled-components';
 
 export const HomeWrapper = styled.div`
-  padding: 1rem 0;
+  padding: 0.75rem 0;
   text-align: center;
 
   .head {
