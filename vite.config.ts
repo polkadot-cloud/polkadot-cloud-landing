@@ -8,7 +8,7 @@ import tsconfigPaths from 'vite-tsconfig-paths';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), svgr(), tsconfigPaths(),],
+  plugins: [react(), svgr(), tsconfigPaths()],
   build: {
     outDir: 'build',
   },
@@ -23,4 +23,4 @@ export default defineConfig({
   worker: {
     format: 'es',
   },
-})
+});

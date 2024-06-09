@@ -1,11 +1,11 @@
 // Copyright 2024 @polkadot-cloud/polkadot-cloud-landing authors & contributors
 // SPDX-License-Identifier: GPL-3.0-only
 
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const AppWrapper = styled.div`
   max-width: 1280px;
-  margin: 0  auto;
+  margin: 0 auto;
   padding: 2rem;
   text-align: center;
 
