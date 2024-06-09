@@ -11,15 +11,16 @@ export const HomeWrapper = styled.div`
     margin-bottom: 1.25rem;
 
     .logo {
-      height: 7rem;
+      height: 6.5rem;
       padding: 1rem;
       will-change: filter;
       transition: filter 300ms;
-      filter: drop-shadow(0 0 2em rgba(193, 14, 125, 0.15));
+      filter: drop-shadow(0 0 2em rgba(193, 14, 125, 0.5));
     }
 
     h1 {
       color: var(--text-color-primary);
+      font-family: Unbounded, sans-serif;
     }
 
     h2 {
@@ -36,7 +37,7 @@ export const HeadingWrapper = styled.div`
   > h3 {
     border-bottom: 1px solid var(--border-secondary-color);
     color: var(--text-color-secondary);
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.4rem;
     text-align: left;
     font-size: 0.9rem;
   }

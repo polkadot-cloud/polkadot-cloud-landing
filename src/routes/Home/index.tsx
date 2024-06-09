@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: GPL-3.0-only
 
 import { CardWrapper, PageContentWrapper } from 'Wrappers';
-import IconSVG from 'svg/cloud.svg?react';
+import IconSVG from 'svg/polkadot_icon.svg?react';
 import { HeadingWrapper, HomeWrapper } from './Wrapper';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExternalLinkAlt } from '@fortawesome/pro-solid-svg-icons';
@@ -14,17 +14,12 @@ export const Home = () => (
         <a href="https://polkadot.cloud">
           <IconSVG className="logo" />
         </a>
-        <h1>Polkadot Cloud</h1>
-        <h2>
-          Decentralised services for interacting with the Polkadot blockchain
-        </h2>
+        <h1 className="unbounded">Start Using Polkadot</h1>
       </div>
 
       <div style={{ marginBottom: '2.5rem' }}>
         <CardWrapper style={{ background: 'none' }}>
-          <h3 style={{ marginBottom: 0, opacity: 0.5 }}>
-            A New Polkadot Developer Experience
-          </h3>
+          <h3 className="disabled">A New Polkadot Developer Experience</h3>
           <h4 style={{ opacity: 0.5 }}>
             Coming Soon
             <FontAwesomeIcon icon={faExternalLinkAlt} transform="shrink-3" />
