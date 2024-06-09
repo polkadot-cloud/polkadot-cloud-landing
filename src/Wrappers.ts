@@ -3,28 +3,19 @@
 
 import styled from 'styled-components';
 
-export const AppWrapper = styled.div`
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+export const PageContentWrapper = styled.div`
+  margin-top: 0.5rem;
+  width: 100%;
 
-  .logo {
-    height: 6em;
-    padding: 1.5em;
-    will-change: filter;
-    transition: filter 300ms;
-
-    &:hover {
-      filter: drop-shadow(0 0 2em rgba(193, 14, 125, 0.15));
-    }
+  &.thin {
+    max-width: 750px;
+  }
+  &.wide {
+    max-width: 1300px;
   }
 
-  .card {
-    padding: 2em;
-  }
-
-  .read-the-docs {
-    color: #888;
+  > h2 {
+    color: var(--text-color-primary);
+    margin-bottom: 0.6rem;
   }
 `;
