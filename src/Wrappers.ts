@@ -1,5 +1,7 @@
-import styled from "styled-components";
+// Copyright 2024 @polkadot-cloud/landing authors & contributors
+// SPDX-License-Identifier: GPL-3.0-only
 
+import styled from "styled-components";
 
 export const AppWrapper = styled.div`
   max-width: 1280px;
