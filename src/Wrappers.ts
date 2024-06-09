@@ -4,13 +4,11 @@
 import styled from 'styled-components';
 
 export const AppWrapper = styled.div`
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  padding: 2rem 0;
   text-align: center;
 
   .logo {
-    height: 9.5rem;
+    height: 12rem;
     padding: 1.5rem;
     will-change: filter;
     transition: filter 300ms;
@@ -19,12 +17,21 @@ export const AppWrapper = styled.div`
       filter: drop-shadow(0 0 2em rgba(193, 14, 125, 0.15));
     }
   }
+`;
 
-  .card {
-    padding: 2em;
+export const PageContentWrapper = styled.div`
+  margin-top: 0.5rem;
+  width: 100%;
+
+  &.thin {
+    max-width: 750px;
+  }
+  &.wide {
+    max-width: 1300px;
   }
 
-  .read-the-docs {
-    color: #888;
+  > h2 {
+    color: var(--text-color-primary);
+    margin-bottom: 0.6rem;
   }
 `;

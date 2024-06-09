@@ -1,34 +1,27 @@
 // Copyright 2024 @polkadot-cloud/polkadot-cloud-landing authors & contributors
 // SPDX-License-Identifier: GPL-3.0-only
 
-import { useState } from 'react';
-import { AppWrapper } from './Wrappers';
-import logo from 'svg/cloud.svg';
+import IconSVG from 'svg/cloud.svg?react';
 import { Header } from 'library/Header';
 import { Entry } from 'library/Entry';
+import { AppWrapper, PageContentWrapper } from 'Wrappers';
+import { Body } from 'library/Body';
 
-const App = () => {
-  const [count, setCount] = useState(0);
-
-  return (
-    <Entry mode="light" accent="cloud">
-      <Header />
-      <AppWrapper>
-        <div>
-          <a href="https://polkadot.cloud" target="_blank" rel="noreferrer">
-            <img src={logo} className="logo" alt="Polkadot Cloud logo" />
-          </a>
-        </div>
-        <h1>Vite + React</h1>
-        <div className="card">
-          <button onClick={() => setCount((c) => c + 1)}>
-            count is {count}
-          </button>
-        </div>
-        <p className="read-the-docs">Learn More</p>
-      </AppWrapper>
-    </Entry>
-  );
-};
+const App = () => (
+  <Entry mode="light" accent="cloud">
+    <Header />
+    <Body>
+      <PageContentWrapper className="thin">
+        <AppWrapper>
+          <div>
+            <a href="https://polkadot.cloud" target="_blank" rel="noreferrer">
+              <IconSVG className="logo" />
+            </a>
+          </div>
+        </AppWrapper>
+      </PageContentWrapper>
+    </Body>
+  </Entry>
+);
 
 export default App;
