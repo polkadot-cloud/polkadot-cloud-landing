@@ -6,6 +6,7 @@ import { Entry } from 'library/Entry';
 import { Body } from 'library/Body';
 import { HashRouter } from 'react-router-dom';
 import { Router } from 'Router';
+import { Footer } from 'library/Footer';
 
 const App = () => (
   <Entry mode="light" accent="cloud">
@@ -14,6 +15,7 @@ const App = () => (
       <Body>
         <Router />
       </Body>
+      <Footer />
     </HashRouter>
   </Entry>
 );

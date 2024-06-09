@@ -4,7 +4,7 @@
 import styled from 'styled-components';
 
 export const HomeWrapper = styled.div`
-  padding: 2rem 0;
+  padding: 4rem 0;
   text-align: center;
 
   .logo {

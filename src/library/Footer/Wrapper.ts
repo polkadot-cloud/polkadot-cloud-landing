@@ -3,10 +3,12 @@
 
 import styled from 'styled-components';
 
-export const Wrapper = styled.div`
+export const FooterWrapper = styled.div`
+  border-top: 1px solid var(--border-primary-color);
   display: flex;
-  flex-direction: row;
+  align-items: center;
   justify-content: center;
-  min-height: calc(100vh - 4.8rem);
+  padding: 0.4rem 1rem;
   width: 100%;
+  height: 2.4rem;
 `;
