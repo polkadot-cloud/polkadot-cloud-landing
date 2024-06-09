@@ -12,7 +12,6 @@ export const Home = () => (
         <a href="https://polkadot.cloud">
           <IconSVG className="logo" />
         </a>
-        <h1>Polkadot Cloud</h1>
       </div>
     </HomeWrapper>
   </PageContentWrapper>
