@@ -73,7 +73,7 @@ export const HeaderWrapper = styled.div`
       > button {
         color: var(--text-color-secondary);
         font-family: InterSemiBold, sans-serif;
-        margin-left: 1.25rem;
+        margin-left: 1rem;
         transition: color 0.15s;
 
         > svg {
