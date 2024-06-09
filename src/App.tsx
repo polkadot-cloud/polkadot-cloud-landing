@@ -19,7 +19,7 @@ const App = () => {
       <div className="card">
         <button onClick={() => setCount((c) => c + 1)}>count is {count}</button>
       </div>
-      <p className="read-the-docs">Learn more</p>
+      <p className="read-the-docs">Learn More</p>
     </AppWrapper>
   );
 };
