@@ -71,8 +71,8 @@ export const HeaderWrapper = styled.div`
       align-items: center;
 
       > button {
-        font-family: InterSemiBold, sans-serif;
         color: var(--text-color-secondary);
+        font-family: InterSemiBold, sans-serif;
         margin-left: 1.25rem;
         transition: color 0.15s;
 
