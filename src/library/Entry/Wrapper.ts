@@ -11,4 +11,8 @@ export const Wrapper = styled.div`
   flex-grow: 1;
   width: 100%;
   min-height: 100vh;
+
+  a {
+    color: var(--accent-color-primary);
+  }
 `;

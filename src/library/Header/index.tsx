@@ -2,9 +2,9 @@
 // SPDX-License-Identifier: GPL-3.0-only
 
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faBooks } from '@fortawesome/pro-solid-svg-icons';
+import { faBooks, faExternalLinkAlt } from '@fortawesome/pro-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { DocsUrl, GithubRepoUrl } from 'consts';
+import { GithubRepoUrl } from 'consts';
 import IconSvg from 'svg/cloud.svg?react';
 import { HeaderWrapper } from './Wrapper';
 import { version } from '../../../package.json';
@@ -18,10 +18,20 @@ export const Header = () => (
         <IconSvg />
       </span>
       <h1>Polkadot Cloud</h1>
-      <span>{version}</span>
+      <span className="version">{version}</span>
     </div>
     <div>
-      <button onClick={() => window.open(DocsUrl)}>
+      <span>
+        <button disabled>
+          Coming Soon
+          <FontAwesomeIcon icon={faExternalLinkAlt} transform="shrink-5" />
+        </button>
+      </span>
+      <button
+        onClick={() => {
+          /* Do nothing. */
+        }}
+      >
         <FontAwesomeIcon icon={faBooks} transform="grow-2" />
       </button>
 

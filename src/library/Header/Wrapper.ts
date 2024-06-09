@@ -36,7 +36,7 @@ export const HeaderWrapper = styled.div`
         background-clip: text;
       }
 
-      > span {
+      > .version {
         color: var(--text-color-primary);
         font-family: InterSemiBold, sans-serif;
         margin-left: 0.35rem;
@@ -62,6 +62,37 @@ export const HeaderWrapper = styled.div`
 
         &:hover {
           opacity: 1;
+        }
+      }
+    }
+
+    > span {
+      display: flex;
+      align-items: center;
+
+      > button {
+        font-family: InterSemiBold, sans-serif;
+        color: var(--text-color-secondary);
+        margin-left: 1.25rem;
+        transition: color 0.15s;
+
+        > svg {
+          margin-left: 0.2rem;
+        }
+
+        &:hover {
+          color: var(--accent-color-primary);
+        }
+        &:disabled {
+          opacity: 0.5;
+
+          &:hover {
+            color: var(--text-color-secondary);
+          }
+        }
+
+        &:first-child {
+          margin-left: 0.5rem;
         }
       }
     }
