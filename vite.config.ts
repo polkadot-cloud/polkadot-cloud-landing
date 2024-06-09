@@ -1,3 +1,6 @@
+// Copyright 2024 @polkadot-cloud/polkadot-cloud-landing authors & contributors
+// SPDX-License-Identifier: GPL-3.0-only
+
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import svgr from 'vite-plugin-svgr';
