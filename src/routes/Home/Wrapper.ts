@@ -12,9 +12,6 @@ export const HomeWrapper = styled.div`
     padding: 1.5rem;
     will-change: filter;
     transition: filter 300ms;
-
-    &:hover {
-      filter: drop-shadow(0 0 2em rgba(193, 14, 125, 0.15));
-    }
+    filter: drop-shadow(0 0 2em rgba(193, 14, 125, 0.15));
   }
 `;

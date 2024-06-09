@@ -4,8 +4,9 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  min-height: calc(100vh - 2.4rem);
+  width: 100%;
 `;
