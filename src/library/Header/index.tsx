@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: GPL-3.0-only
 
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faBooks, faExternalLinkAlt } from '@fortawesome/pro-solid-svg-icons';
+import { faExternalLinkAlt } from '@fortawesome/pro-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { GithubRepoUrl } from 'consts';
 import IconSvg from 'svg/cloud.svg?react';
@@ -22,20 +22,13 @@ export const Header = () => (
     </div>
     <div>
       <span>
-        <button disabled>
+        <button type="button" disabled>
           Coming Soon
           <FontAwesomeIcon icon={faExternalLinkAlt} transform="shrink-5" />
         </button>
       </span>
-      <button
-        onClick={() => {
-          /* Do nothing. */
-        }}
-      >
-        <FontAwesomeIcon icon={faBooks} transform="grow-2" />
-      </button>
 
-      <button onClick={() => window.open(GithubRepoUrl)}>
+      <button type="button" onClick={() => window.open(GithubRepoUrl)}>
         <FontAwesomeIcon icon={faGithub} transform="grow-4" />
       </button>
     </div>

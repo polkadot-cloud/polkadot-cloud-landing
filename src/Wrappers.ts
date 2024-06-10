@@ -23,7 +23,7 @@ export const PageContentWrapper = styled.div`
 
 export const CardWrapper = styled.div`
   border: 1px solid var(--border-secondary-color);
-  background-color: var(--background-default);
+  background-color: var(--background-primary);
   box-shadow: var(--shadow-floating-menu);
   border-radius: 0.75rem;
   flex: 1;
