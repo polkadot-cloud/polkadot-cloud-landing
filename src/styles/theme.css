@@ -2,8 +2,8 @@
 SPDX-License-Identifier: GPL-3.0-only */
 
 .theme-light {
-  --background-default: #f7f7f7;
-  --background-primary: #f3f2f2;
+  --background-default: #fafafa;
+  --background-primary: #fafafa;
   --background-invert: #888;
   --background-tooltip: #222;
   --background-floating-card: rgb(255 255 255 / 90%);
