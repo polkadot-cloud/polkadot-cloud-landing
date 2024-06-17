@@ -33,11 +33,11 @@ export const Home = () => (
           </p>
           <h4>
             <a
-              href="https://staking.polkadot.network"
+              href="https://staking.polkadot.cloud"
               target="_blank"
               rel="noreferrer"
             >
-              https://staking.polkadot.network
+              https://staking.polkadot.cloud
               <FontAwesomeIcon icon={faExternalLinkAlt} transform="shrink-3" />
             </a>
           </h4>
