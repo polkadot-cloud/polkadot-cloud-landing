@@ -44,7 +44,7 @@ export const Disclaimer = () => {
             information or functionality is contrary to the laws of such
             jurisdiction; or (2) such distribution is prohibited without
             obtaining the necessary licenses or authorizations by the relevant
-            branch, subsidiary or affiliate office of Foundation and such
+            branch, subsidiary or affiliate office of Polkadot Cloud and such
             licenses or authorizations have not been obtained.
           </p>
           <p className="ySpace">
@@ -66,8 +66,8 @@ export const Disclaimer = () => {
             act of any kind whatsoever.
           </p>
           <p className="ySpace">
-            Foundation does not provide investment, legal or tax advice through
-            the Website and nothing herein should be construed as being
+            Polkadot Cloud does not provide investment, legal or tax advice
+            through the Website and nothing herein should be construed as being
             financial, legal, tax or other advice.
           </p>
           <p className="ySpace">
@@ -76,25 +76,25 @@ export const Disclaimer = () => {
             provided &ldquo;as is&ldquo; and &ldquo;as available&ldquo;, without
             any representations or warranties of any kind. Any materials,
             information or content accessed, downloaded or otherwise obtained
-            through the use of the Website is done at your own risk and
-            Foundation is not responsible for any damage to your computer
-            systems or loss of data that results from the download of such
-            material.
+            through the use of the Website is done at your own risk and Polkadot
+            Cloud is not responsible for any damage to your computer systems or
+            loss of data that results from the download of such material.
           </p>
           <p className="ySpace">
-            To the fullest extent permitted by law, in no event shall Foundation
-            or our affiliates, or any of our directors, employees, contractors,
-            service providers or agents have any liability whatsoever to any
-            person for any direct or indirect loss, liability, cost, claim,
-            expense or damage of any kind, whether in contract or in tort,
-            including negligence, or otherwise, arising out of or related to the
-            use of all or part of the Website, or any links to third party
-            websites.
+            To the fullest extent permitted by law, in no event shall Polkadot
+            Cloud or our affiliates, or any of our directors, employees,
+            contractors, service providers or agents have any liability
+            whatsoever to any person for any direct or indirect loss, liability,
+            cost, claim, expense or damage of any kind, whether in contract or
+            in tort, including negligence, or otherwise, arising out of or
+            related to the use of all or part of the Website, or any links to
+            third party websites.
           </p>
           <p className="ySpace">
-            Foundation shall not be liable to you or anybody else for any
-            damages incurred in connection with any messages sent to Foundation
-            using ordinary E-mail or any other electronic messaging system.
+            Polkadot Cloud shall not be liable to you or anybody else for any
+            damages incurred in connection with any messages sent to Polkadot
+            Cloud using ordinary E-mail or any other electronic messaging
+            system.
           </p>
         </div>
       </HomeWrapper>
