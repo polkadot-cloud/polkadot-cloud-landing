@@ -5,19 +5,22 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faExternalLinkAlt } from '@fortawesome/pro-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { GithubRepoUrl } from 'consts';
-import IconSvg from 'svg/cloud.svg?react';
+import IconSvg from 'svg/polkadot_icon.svg?react';
 import { HeaderWrapper } from './Wrapper';
 import { version } from '../../../package.json';
+import { Link } from 'react-router-dom';
 
 export const Header = () => (
   <HeaderWrapper>
     <div>
       <span
-        style={{ width: '1.25rem', height: '1.25rem', marginRight: '0.4rem' }}
+        style={{ width: '1.15rem', height: '1.15rem', marginRight: '0.4rem' }}
       >
         <IconSvg />
       </span>
-      <h1>Polkadot Cloud</h1>
+      <h1>
+        <Link to="/">Polkadot Cloud</Link>
+      </h1>
       <span className="version">{version}</span>
     </div>
     <div>

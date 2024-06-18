@@ -7,6 +7,6 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
-  min-height: calc(100vh - 4.8rem);
+  min-height: calc(100vh - 7.4rem);
   width: 100%;
 `;
