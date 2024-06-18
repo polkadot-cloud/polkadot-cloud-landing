@@ -8,6 +8,7 @@ import { GithubRepoUrl } from 'consts';
 import IconSvg from 'svg/polkadot_icon.svg?react';
 import { HeaderWrapper } from './Wrapper';
 import { version } from '../../../package.json';
+import { Link } from 'react-router-dom';
 
 export const Header = () => (
   <HeaderWrapper>
@@ -17,7 +18,9 @@ export const Header = () => (
       >
         <IconSvg />
       </span>
-      <h1>Polkadot Cloud</h1>
+      <h1>
+        <Link to="/">Polkadot Cloud</Link>
+      </h1>
       <span className="version">{version}</span>
     </div>
     <div>

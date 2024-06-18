@@ -35,7 +35,7 @@ body {
 /* Define default header tag styling. */
 
 h1 {
-  font-family: InterBold, sans-serif;
+  font-family: Unbounded, sans-serif;
   font-size: 1.4rem;
   line-height: 1.4rem;
   font-weight: 600;
@@ -44,8 +44,8 @@ h1 {
 
 h2 {
   font-family: InterBold, sans-serif;
-  font-size: 1rem;
-  line-height: 1.2rem;
+  font-size: 1.1rem;
+  line-height: 1.3rem;
   font-weight: 600;
   margin: 0;
 }
@@ -77,9 +77,9 @@ h5 {
 
 /* Define default paragraph style. */
 
-p {
+li, p {
   font-size: .85rem;
-  line-height: 1.05rem;
+  line-height: 1.2rem;
   margin: 0.5rem 0;
   text-align: left;
 }

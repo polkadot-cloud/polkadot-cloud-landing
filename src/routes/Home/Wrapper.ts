@@ -4,20 +4,24 @@
 import styled from 'styled-components';
 
 export const HomeWrapper = styled.div`
-  padding: 0.75rem 0;
+  margin-top: 1rem;
   text-align: center;
 
   .head {
     margin-bottom: 1.25rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 
-    .logo {
-      height: 6.5rem;
-      padding: 1rem;
-      will-change: filter;
-      transition: filter 300ms;
-      filter: drop-shadow(0 0 2em rgba(193, 14, 125, 0.5));
+    > div {
+      .logo {
+        height: 6.5rem;
+        padding: 1rem;
+        will-change: filter;
+        transition: filter 300ms;
+        filter: drop-shadow(0 0 2em rgba(193, 14, 125, 0.5));
+      }
     }
-
     h1 {
       color: var(--text-color-primary);
       font-family: Unbounded, sans-serif;
@@ -26,6 +30,27 @@ export const HomeWrapper = styled.div`
     h2 {
       color: var(--text-color-secondary);
       margin-top: 0.55rem;
+    }
+  }
+
+  .legal {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+    > h1 {
+      margin-bottom: 1.5rem;
+    }
+
+    h2 {
+      margin-top: 1.75rem;
+    }
+    h2,
+    li,
+    p {
+      text-align: left;
+      &.ySpace {
+        margin-top: 1.5rem;
+      }
     }
   }
 `;

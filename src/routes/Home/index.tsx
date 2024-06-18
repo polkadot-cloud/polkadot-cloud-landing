@@ -11,9 +11,11 @@ export const Home = () => (
   <PageContentWrapper className="thin">
     <HomeWrapper>
       <div className="head">
-        <a href="https://polkadot.cloud">
-          <IconSVG className="logo" />
-        </a>
+        <div>
+          <a href="https://polkadot.cloud">
+            <IconSVG className="logo" />
+          </a>
+        </div>
         <h1 className="unbounded">Start Using Polkadot</h1>
       </div>
 
