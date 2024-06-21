@@ -4,7 +4,6 @@
 import styled from 'styled-components';
 
 export const PageContentWrapper = styled.div`
-  margin-top: 0.5rem;
   width: 100%;
   padding: 0 1.5rem;
 
