@@ -14,7 +14,7 @@ export const Header = () => (
   <HeaderWrapper>
     <div>
       <span
-        style={{ width: '1.3rem', height: '1.3rem', marginRight: '0.4rem' }}
+        style={{ width: '1.1rem', height: '1.1rem', marginRight: '0.4rem' }}
       >
         <IconSvg />
       </span>
