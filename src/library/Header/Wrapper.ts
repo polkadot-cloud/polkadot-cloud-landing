@@ -20,22 +20,19 @@ export const HeaderWrapper = styled.div`
 
     &:first-child {
       > h1 {
-        font-family: Inter, sans-serif;
+        font-family: InterBold, sans-serif;
         font-size: 0.72rem;
         text-transform: uppercase;
-        /* NOTE: Text gradients not yet standardised. Falls back to color on non-webkit compatible
-        browsers. */
-        background: linear-gradient(
-          90deg,
-          var(--accent-color-secondary) 0%,
-          var(--accent-color-secondary) 20%,
-          var(--accent-color-primary) 100%
-        );
         color: var(--accent-color-primary);
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
       }
 
+      > span {
+        > svg {
+          fill: var(--accent-color-primary);
+          width: 100%;
+          height: 100%;
+        }
+      }
       > .version {
         color: var(--text-color-primary);
         font-family: InterSemiBold, sans-serif;
@@ -43,12 +40,6 @@ export const HeaderWrapper = styled.div`
         margin-right: 0.5rem;
         font-size: 0.7rem;
         opacity: 0.75;
-
-        > svg {
-          fill: var(--accent-color-primary);
-          width: 100%;
-          height: 100%;
-        }
       }
     }
 

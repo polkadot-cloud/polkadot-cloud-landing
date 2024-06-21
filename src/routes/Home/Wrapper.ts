@@ -4,7 +4,8 @@
 import styled from 'styled-components';
 
 export const HomeWrapper = styled.div`
-  margin-top: 1rem;
+  margin-top: 0.75rem;
+  margin-bottom: 1rem;
   text-align: center;
 
   .head {
@@ -14,22 +15,27 @@ export const HomeWrapper = styled.div`
     align-items: center;
 
     > div {
+      position: relative;
+      width: 100%;
+      max-width: 23rem;
+      height: 20rem;
+
       .logo {
-        height: 6.5rem;
+        position: absolute;
+        top: 0;
+        left: 0;
         padding: 1rem;
         will-change: filter;
         transition: filter 300ms;
-        filter: drop-shadow(0 0 2em rgba(193, 14, 125, 0.5));
+        z-index: 0;
+        width: auto;
+        height: 21rem;
       }
     }
     h1 {
       color: var(--text-color-primary);
       font-family: Unbounded, sans-serif;
-    }
-
-    h2 {
-      color: var(--text-color-secondary);
-      margin-top: 0.55rem;
+      z-index: 1;
     }
   }
 
