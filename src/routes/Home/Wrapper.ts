@@ -62,7 +62,7 @@ export const HomeWrapper = styled.div`
 `;
 
 export const HeadingWrapper = styled.div`
-  margin: 1.25rem 0 0.3rem 0;
+  margin: 1rem 0 0.3rem 0;
   padding: 0 0.6rem;
 
   > h3 {

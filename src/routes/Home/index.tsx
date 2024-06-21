@@ -44,7 +44,7 @@ export const Home = () => (
       </div>
 
       <HeadingWrapper>
-        <h3>Other Resources</h3>
+        <h3>Resources</h3>
       </HeadingWrapper>
 
       <span>
