@@ -18,18 +18,21 @@ export const HomeWrapper = styled.div`
       position: relative;
       width: 100%;
       max-width: 23rem;
-      height: 21.5rem;
 
       .logo {
-        position: absolute;
-        top: 0;
-        left: 0;
+        position: relative;
+        left: -1.5rem;
         padding: 1rem;
         will-change: filter;
         transition: filter 300ms;
         z-index: 0;
         width: auto;
         height: 23rem;
+
+        @media (max-width: 700px) {
+          max-height: 15rem;
+          left: 0.5rem;
+        }
       }
     }
     h1 {
