@@ -5,7 +5,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faExternalLinkAlt } from '@fortawesome/pro-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { GithubRepoUrl } from 'consts';
-import IconSvg from 'svg/polkadot_icon.svg?react';
+import IconSvg from 'svg/CloudFilled.svg?react';
 import { HeaderWrapper } from './Wrapper';
 import { version } from '../../../package.json';
 import { Link } from 'react-router-dom';
@@ -14,7 +14,7 @@ export const Header = () => (
   <HeaderWrapper>
     <div>
       <span
-        style={{ width: '1.15rem', height: '1.15rem', marginRight: '0.4rem' }}
+        style={{ width: '1.3rem', height: '1.3rem', marginRight: '0.4rem' }}
       >
         <IconSvg />
       </span>

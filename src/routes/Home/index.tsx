@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: GPL-3.0-only
 
 import { CardWrapper, PageContentWrapper } from 'Wrappers';
-import IconSVG from 'svg/polkadot_icon.svg?react';
+import IconSVG from 'svg/PolkadotIcon.svg?react';
 import { HeadingWrapper, HomeWrapper } from './Wrapper';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExternalLinkAlt } from '@fortawesome/pro-solid-svg-icons';
