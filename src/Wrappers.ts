@@ -4,7 +4,6 @@
 import styled from 'styled-components';
 
 export const PageContentWrapper = styled.div`
-  margin-top: 0.5rem;
   width: 100%;
   padding: 0 1.5rem;
 
@@ -22,10 +21,10 @@ export const PageContentWrapper = styled.div`
 `;
 
 export const CardWrapper = styled.div`
-  border: 1px solid var(--border-secondary-color);
+  border: 1.25px solid var(--border-secondary-color);
   background-color: var(--background-primary);
   box-shadow: var(--shadow-floating-menu);
-  border-radius: 0.75rem;
+  border-radius: 0.8rem;
   flex: 1;
   padding: 0.75rem 1rem;
   margin-bottom: 1rem;
@@ -35,12 +34,12 @@ export const CardWrapper = styled.div`
 
   h3 {
     color: var(--text-color-primary);
-    font-family: InterExtraBold, sans-serif;
+    font-family: InterBold, sans-serif;
     margin-top: 0.25rem;
     margin-bottom: 0.8rem;
 
     &.disabled {
-      font-family: Inter, sans-serif;
+      font-family: InterSemiBold, sans-serif;
       margin-bottom: 0;
       opacity: 0.5;
     }
