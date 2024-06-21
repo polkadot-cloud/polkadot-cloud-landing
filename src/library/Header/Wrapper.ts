@@ -7,11 +7,14 @@ export const HeaderWrapper = styled.div`
   background-color: var(--background-default);
   border-bottom: 1px solid var(--border-secondary-color);
   border-image: var(--border-gradient) 50;
+  position: sticky;
+  top: 0;
   display: flex;
   align-items: center;
   padding: 0.4rem 1.25rem 0.4rem 0.55rem;
   width: 100%;
   height: 2.4rem;
+  z-index: 10;
 
   > div {
     display: flex;
