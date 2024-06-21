@@ -7,7 +7,7 @@ export const accentColors = {
     dark: '#6d39ee',
   },
   secondary: {
-    light: '#b23c81',
-    dark: '#b23c81',
+    light: '#8a2cce',
+    dark: '#8a2cce',
   },
 };

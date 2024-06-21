@@ -3,7 +3,7 @@ SPDX-License-Identifier: GPL-3.0-only */
 
 .theme-light {
   --background-default: #fafafa;
-  --background-primary: #fafafa;
+  --background-primary: #f8f8f8;
   --background-invert: #888;
   --background-tooltip: #222;
   --background-floating-card: rgb(255 255 255 / 90%);
@@ -43,7 +43,7 @@ SPDX-License-Identifier: GPL-3.0-only */
     180deg,
     #fafafa 0%,
     #fafafa 100px,
-    #ececec 80%,
+    #e6e6e6 80%,
     #fbede8 100%
   );
   --gradient-tab-fade: linear-gradient(

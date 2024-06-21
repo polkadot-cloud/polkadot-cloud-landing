@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: GPL-3.0-only
 
 import { CardWrapper, PageContentWrapper } from 'Wrappers';
-import IconSVG from 'svg/polkadot_icon.svg?react';
 import { HeadingWrapper, HomeWrapper } from './Wrapper';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExternalLinkAlt } from '@fortawesome/pro-solid-svg-icons';
@@ -12,9 +11,7 @@ export const Home = () => (
     <HomeWrapper>
       <div className="head">
         <div>
-          <a href="https://polkadot.cloud">
-            <IconSVG className="logo" />
-          </a>
+          <img src="/png/CloudHero.png" className="logo" />
         </div>
         <h1 className="unbounded">Start Using Polkadot</h1>
       </div>
@@ -47,7 +44,7 @@ export const Home = () => (
       </div>
 
       <HeadingWrapper>
-        <h3>Documentation</h3>
+        <h3>Resources</h3>
       </HeadingWrapper>
 
       <span>
@@ -57,10 +54,6 @@ export const Home = () => (
           <h4>Coming Soon</h4>
         </CardWrapper>
       </span>
-
-      <HeadingWrapper>
-        <h3>Other Resources</h3>
-      </HeadingWrapper>
 
       <span>
         <CardWrapper className="transparent">
