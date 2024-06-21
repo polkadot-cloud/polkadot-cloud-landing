@@ -18,7 +18,7 @@ export const HomeWrapper = styled.div`
       position: relative;
       width: 100%;
       max-width: 23rem;
-      height: 20rem;
+      height: 21.5rem;
 
       .logo {
         position: absolute;
@@ -29,7 +29,7 @@ export const HomeWrapper = styled.div`
         transition: filter 300ms;
         z-index: 0;
         width: auto;
-        height: 21rem;
+        height: 23rem;
       }
     }
     h1 {
