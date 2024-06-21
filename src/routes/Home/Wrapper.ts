@@ -17,7 +17,7 @@ export const HomeWrapper = styled.div`
     > div {
       position: relative;
       width: 100%;
-      max-width: 23rem;
+      max-width: 21rem;
 
       .logo {
         position: relative;
@@ -27,7 +27,7 @@ export const HomeWrapper = styled.div`
         transition: filter 300ms;
         z-index: 0;
         width: auto;
-        height: 23rem;
+        height: 21rem;
 
         @media (max-width: 700px) {
           max-height: 15rem;
