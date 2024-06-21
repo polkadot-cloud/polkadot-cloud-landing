@@ -5,11 +5,9 @@ import styled from 'styled-components';
 
 export const HomeWrapper = styled.div`
   margin-top: 0.75rem;
-  margin-bottom: 1rem;
   text-align: center;
 
   .head {
-    margin-bottom: 1.25rem;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -17,28 +15,23 @@ export const HomeWrapper = styled.div`
     > div {
       position: relative;
       width: 100%;
-      max-width: 15rem;
+      max-width: 13rem;
 
       .logo {
         position: relative;
-        left: -1.5rem;
+        left: -1rem;
         padding: 1rem;
         will-change: filter;
         transition: filter 300ms;
         z-index: 0;
         width: auto;
-        height: 15rem;
+        height: 13rem;
 
         @media (max-width: 700px) {
           max-height: 11rem;
-          left: 0.5rem;
+          left: 0rem;
         }
       }
-    }
-    h1 {
-      color: var(--text-color-primary);
-      font-family: Unbounded, sans-serif;
-      z-index: 1;
     }
   }
 

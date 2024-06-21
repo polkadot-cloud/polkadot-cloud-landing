@@ -2,7 +2,6 @@
 // SPDX-License-Identifier: GPL-3.0-only
 
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faExternalLinkAlt } from '@fortawesome/pro-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { GithubRepoUrl } from 'consts';
 import IconSvg from 'svg/Cloud.svg?react';
@@ -19,18 +18,11 @@ export const Header = () => (
         <IconSvg />
       </span>
       <h1>
-        <Link to="/">Polkadot Cloud</Link>
+        <Link to="/">Polkadot Cloud Portal</Link>
       </h1>
       <span className="version">{version}</span>
     </div>
     <div>
-      <span>
-        <button type="button" disabled>
-          Coming Soon
-          <FontAwesomeIcon icon={faExternalLinkAlt} transform="shrink-5" />
-        </button>
-      </span>
-
       <button type="button" onClick={() => window.open(GithubRepoUrl)}>
         <FontAwesomeIcon icon={faGithub} transform="grow-4" />
       </button>
