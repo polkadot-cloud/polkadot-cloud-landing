@@ -13,10 +13,13 @@ export const Home = () => (
         <div>
           <img src="/png/CloudHero.png" className="logo" />
         </div>
-        <h1 className="unbounded">Start Using Polkadot</h1>
       </div>
 
       <div style={{ marginBottom: '2.5rem' }}>
+        <HeadingWrapper style={{ marginTop: '0' }}>
+          <h3 style={{ border: 'none' }}>Apps</h3>
+        </HeadingWrapper>
+
         <CardWrapper style={{ background: 'none' }}>
           <h3 className="disabled">A New Polkadot Developer Experience</h3>
           <h4 style={{ opacity: 0.5 }}>
@@ -44,7 +47,7 @@ export const Home = () => (
       </div>
 
       <HeadingWrapper>
-        <h3>Resources</h3>
+        <h3>Documentation</h3>
       </HeadingWrapper>
 
       <span>
@@ -54,6 +57,10 @@ export const Home = () => (
           <h4>Coming Soon</h4>
         </CardWrapper>
       </span>
+
+      <HeadingWrapper>
+        <h3>Other Resources</h3>
+      </HeadingWrapper>
 
       <span>
         <CardWrapper className="transparent">
