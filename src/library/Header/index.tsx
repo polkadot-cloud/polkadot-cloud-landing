@@ -5,7 +5,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faExternalLinkAlt } from '@fortawesome/pro-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { GithubRepoUrl } from 'consts';
-import IconSvg from 'svg/CloudFilled.svg?react';
+import IconSvg from 'svg/Cloud.svg?react';
 import { HeaderWrapper } from './Wrapper';
 import { version } from '../../../package.json';
 import { Link } from 'react-router-dom';
