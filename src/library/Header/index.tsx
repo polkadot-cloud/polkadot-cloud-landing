@@ -4,23 +4,19 @@
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { GithubRepoUrl } from 'consts';
-import IconSvg from 'svg/Cloud.svg?react';
+import IconSvg from 'svg/Icon.svg?react';
 import { HeaderWrapper } from './Wrapper';
-import { version } from '../../../package.json';
 import { Link } from 'react-router-dom';
 
 export const Header = () => (
   <HeaderWrapper>
     <div>
-      <span
-        style={{ width: '1.1rem', height: '1.1rem', marginRight: '0.4rem' }}
-      >
+      <span style={{ width: '1rem', height: '1rem', marginRight: '0.5rem' }}>
         <IconSvg />
       </span>
       <h1>
         <Link to="/">Polkadot Cloud Portal</Link>
       </h1>
-      <span className="version">{version}</span>
     </div>
     <div>
       <button type="button" onClick={() => window.open(GithubRepoUrl)}>
