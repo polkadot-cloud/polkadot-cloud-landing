@@ -23,10 +23,15 @@ export const HeaderWrapper = styled.div`
 
     &:first-child {
       > h1 {
-        font-family: InterBold, sans-serif;
-        font-size: 0.72rem;
-        text-transform: uppercase;
-        color: var(--accent-color-primary);
+        display: flex;
+        align-items: center;
+
+        > a {
+          font-family: InterBold, sans-serif;
+          font-size: 0.72rem;
+          text-transform: uppercase;
+          color: #881cbc;
+        }
       }
 
       > span {
@@ -35,14 +40,6 @@ export const HeaderWrapper = styled.div`
           width: 100%;
           height: 100%;
         }
-      }
-      > .version {
-        color: var(--text-color-primary);
-        font-family: InterSemiBold, sans-serif;
-        margin-left: 0.35rem;
-        margin-right: 0.5rem;
-        font-size: 0.7rem;
-        opacity: 0.75;
       }
     }
 
