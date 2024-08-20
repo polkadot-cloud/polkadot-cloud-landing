@@ -22,7 +22,7 @@ export const Home = () => (
 
         <CardWrapper>
           <h3>Polkadot Developer Console</h3>
-          <p>A Next-Generation Polkadot Developer Console.</p>
+          <p>A next-generation Polkadot developer console.</p>
           <h4>
             <a
               href="https://console.polkadot.cloud"
