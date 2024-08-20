@@ -20,11 +20,18 @@ export const Home = () => (
           <h3 style={{ border: 'none' }}>Apps</h3>
         </HeadingWrapper>
 
-        <CardWrapper style={{ background: 'none' }}>
-          <h3 className="disabled">A New Polkadot Developer Experience</h3>
-          <h4 style={{ opacity: 0.5 }}>
-            Coming Soon
-            <FontAwesomeIcon icon={faExternalLinkAlt} transform="shrink-3" />
+        <CardWrapper>
+          <h3>Polkadot Developer Console</h3>
+          <p>A Next-Generation Polkadot Developer Console.</p>
+          <h4>
+            <a
+              href="https://console.polkadot.cloud"
+              target="_blank"
+              rel="noreferrer"
+            >
+              https://console.polkadot.cloud
+              <FontAwesomeIcon icon={faExternalLinkAlt} transform="shrink-3" />
+            </a>
           </h4>
         </CardWrapper>
 
