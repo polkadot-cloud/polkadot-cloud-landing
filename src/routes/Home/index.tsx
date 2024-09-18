@@ -61,7 +61,16 @@ export const Home = () => (
         <CardWrapper className="transparent">
           <h3>Polkadot Cloud Docs</h3>
           <p>Documentation for using and contributing to Polkadot Cloud.</p>
-          <h4>Coming Soon</h4>
+          <h4>
+            <a
+              href="https://docs.polkadot.cloud"
+              target="_blank"
+              rel="noreferrer"
+            >
+              https://docs.polkadot.cloud
+              <FontAwesomeIcon icon={faExternalLinkAlt} transform="shrink-3" />
+            </a>
+          </h4>
         </CardWrapper>
       </span>
 
