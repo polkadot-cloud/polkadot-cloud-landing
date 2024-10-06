@@ -5,13 +5,11 @@ import styled from 'styled-components';
 
 export const HeaderWrapper = styled.div`
   background-color: var(--background-default);
-  border-bottom: 1px solid var(--border-secondary-color);
-  border-image: var(--border-gradient) 50;
   position: sticky;
   top: 0;
   display: flex;
   align-items: center;
-  padding: 0.4rem 1.25rem 0.4rem 0.55rem;
+  padding: 0.8rem 1.25rem 0.25rem 0.95rem;
   width: 100%;
   height: 2.4rem;
   z-index: 10;
@@ -22,23 +20,12 @@ export const HeaderWrapper = styled.div`
     flex-grow: 1;
 
     &:first-child {
-      > h1 {
-        display: flex;
-        align-items: center;
+      > button {
+        position: relative;
 
-        > a {
-          font-family: InterBold, sans-serif;
-          font-size: 0.72rem;
-          text-transform: uppercase;
-          color: #881cbc;
-        }
-      }
-
-      > span {
         > svg {
-          fill: var(--accent-color-primary);
-          width: 100%;
-          height: 100%;
+          height: 0.8rem;
+          margin-right: 0.5rem;
         }
       }
     }
@@ -48,7 +35,7 @@ export const HeaderWrapper = styled.div`
 
       > button {
         color: var(--text-color-secondary);
-        opacity: 0.4;
+        opacity: 0.75;
         transition: opacity 0.2s;
         margin-left: 1.25rem;
 
