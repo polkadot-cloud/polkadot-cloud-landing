@@ -85,19 +85,15 @@ export const Home = () => (
             A modular library for Polkadot dapps hosted under the @w3ux scope.
           </p>
           <h4>
-            <a
-              href="https://github.com/w3ux/w3ux-library"
-              target="_blank"
-              rel="noreferrer"
-            >
-              https://github.com/w3ux/w3ux-library
+            <a href="https://w3ux.org" target="_blank" rel="noreferrer">
+              https://w3ux.org
               <FontAwesomeIcon icon={faExternalLinkAlt} transform="shrink-3" />
             </a>
           </h4>
         </CardWrapper>
 
         <CardWrapper className="transparent">
-          <h3>Github</h3>
+          <h3>GitHub</h3>
           <p>Find all Polkadot Cloud projects on Github.</p>
           <h4>
             <a
