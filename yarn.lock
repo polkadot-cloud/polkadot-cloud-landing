@@ -1227,10 +1227,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w3ux/types@npm:^0.1.0":
-  version: 0.1.0
-  resolution: "@w3ux/types@npm:0.1.0"
-  checksum: 10c0/b7e55a4dea37298c5e34edf16cd049ef4b5e0a1f28bfe927f6615a31fc1c6e0810c509bbac20530256725f2438348979d7b750da9a03732d2e8214ab4ea9859c
+"@w3ux/types@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "@w3ux/types@npm:0.2.0"
+  checksum: 10c0/dae057b008f110f99da6c97c6f43849708234fbabeb5fa7370a3f9908513227f420ba48c6183b421ec9f8c758cd2c98e45a8a380efe6491012341bcc08b3063b
   languageName: node
   linkType: hard
 
@@ -3965,7 +3965,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": "npm:^7.12.0"
     "@typescript-eslint/parser": "npm:^7.12.0"
     "@vitejs/plugin-react": "npm:^4.2.1"
-    "@w3ux/types": "npm:^0.1.0"
+    "@w3ux/types": "npm:^0.2.0"
     eslint: "npm:8.57.0"
     eslint-config-prettier: "npm:^9.1.0"
     eslint-import-resolver-typescript: "npm:^3.6.1"
